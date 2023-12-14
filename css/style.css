@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+img{
+    border: 0px;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clr{
+    clear: both;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif; 
+    overflow-x: hidden;
+}
+
+.custom_card{
+    margin-top: 100px;
+}
+
+.card_body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card_title_part{
+    color: #222222;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.card_title_part i{
+    margin-right: 5px;   
+}
+
+span.req_star{
+    color: #CC0000;
+}
+
+.col_form_label{
+    font-size: 15px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+.form_control{
+    
+}
+
+.error{
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
