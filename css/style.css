@@ -30,6 +30,13 @@ a{
   src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
+.newClass{
+    font-family: 'Ubuntu', sans-serif;
+        overflow-x: hidden;
+        padding-top: 50px;
+            padding-bottom: 50px;
+}
+
 body{
     font-family: 'Ubuntu', sans-serif; 
     overflow-x: hidden;
